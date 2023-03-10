@@ -58,7 +58,7 @@ useEffect(()=>{
             <label htmlFor='price'>
               Max price:
             </label>
-            <h3 className='total'>$5000</h3>
+            <h3 className='total'>$2500</h3>
             </div>
             <div className='input flex'>
               <input type='range' max='5000' min='1000'/>
@@ -82,12 +82,9 @@ useEffect(()=>{
           <div className='leftIcons'>
             <FaList className='icon'/>
             <TbApps className='icon'/>
-
           </div>
         </div>
       </div>
-
-
     </section>
   )
 }
